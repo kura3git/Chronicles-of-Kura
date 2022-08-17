@@ -129,8 +129,14 @@ case $class in
 	attack=40
 	;;
 	*)
-	print  "You selected poorly. Please choose again." $Green 
+	print  "You selected poorly. Please choose again." $Green
 esac
+clear
+
+print "Excellent choice"
+print "You are the $name and your weapon is $weapon !!" $Yellow
+print "You attack power is $attack." $Yellow
+sleep 2
 clear
 }
 
